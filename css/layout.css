@@ -30,3 +30,40 @@
     background-color: gray;
     clear: both;
 }
+
+.container1{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    width: 80%;
+    height: 140px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.right{
+    width: 20%;
+    height: 140px;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+.thumbnail{
+    width: 100%;
+}
+
+.user-info{
+    width: 100%;
+    height: 35%;
+    background-color: cornflowerblue;
+}
+
+.article{
+    width: 100%;
+    height: 65%;
+    background-color: thistle;
+}
