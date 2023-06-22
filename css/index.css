@@ -1,0 +1,23 @@
+.profile{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.name{
+    text-align: center;
+}
+
+.nickname{
+    text-align: center;
+}
+
+.intro{
+    width: 500px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+}
