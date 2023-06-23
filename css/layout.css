@@ -41,14 +41,12 @@
 .left{
     width: 80%;
     height: 140px;
-    background-color: aquamarine;
     float: left;
 }
 
 .right{
     width: 20%;
     height: 140px;
-    background-color: cornflowerblue;
     float: left;
 }
 
@@ -59,11 +57,42 @@
 .user-info{
     width: 100%;
     height: 35%;
-    background-color: cornflowerblue;
 }
 
 .article{
     width: 100%;
     height: 65%;
-    background-color: thistle;
+}
+
+.profile{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.user-name{
+    float: left;
+}
+
+.user-name p{
+    margin: 3px;
+    font-size: 15px;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.article h3{
+    margin: 0px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.article p{
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
