@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+p, h2{
+    margin: 0;
+}
+
+.main-background{
+    width: 400px;
+    height: 480px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.email{
+    padding-bottom: 10px;
+}
+
+.name{
+    width: 48%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.message{
+    padding-bottom: 10px;
+}
+
+.subscribe{
+    float: left;
+}
+
+.send{
+    float: right;
+}
+
+input[type = email]{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 7px;
+    margin-top: 5px;
+    border: darkgray solid 1px;
+    border-radius: 5px;
+}
+
+input[type = text]{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 7px;
+    margin-top: 5px;
+    border: darkgray solid 1px;
+    border-radius: 5px;
+}
