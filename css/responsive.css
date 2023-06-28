@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.main-background{
+    width: 100vw;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    width: 25%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .content{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .content{
+        width: 100%;
+    }
+}

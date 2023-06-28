@@ -1,0 +1,22 @@
+.shop-bg{
+    width: 80vw;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.shop-container{
+    display: flex;
+    margin: auto
+}
+
+.shop-item{
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img{
+    width: 100%;
+    display: block;
+}
