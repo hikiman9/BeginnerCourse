@@ -16,6 +16,10 @@ p{
     padding: 15px 0 15px 0;
 }
 
+.flex-25 p{
+    padding: 3px;
+}
+
 .font-l{
     font-size: 24px;
     font-weight: bold;
@@ -30,8 +34,17 @@ p{
     font-size: 12px;
 }
 
+.font-black{
+    color: black
+}
+
+.center-text{
+    text-align: center;
+}
+
 .bg-size{
     width: 80vw;
+    max-width: 1200px;
     padding: 60px;
     margin: auto;
 }
@@ -40,20 +53,152 @@ p{
     background: linear-gradient(rgb(74, 152, 221), rgb(78, 97, 192));
 }
 
+.bg-blue{
+    background-color: rgb(78, 97, 192);
+}
+
+.bg-icon{
+    width: 80%;
+    margin: auto;
+    padding: 10px
+}
+
+.bg-img{
+    width: 100%;
+    margin: auto;
+}
+
+.bg-img div{
+    height: 20vw;
+    padding: 24px;
+    background-size: cover;
+}
+
+.bg-img1{
+    background-image: url(../img/portfolio-1.jpg);
+}
+
+.bg-img2{
+    background-image: url(../img/portfolio-2.jpg);
+}
+
+.bg-img3{
+    background-image: url(../img/portfolio-3.jpg);
+}
+
+.bg-img4{
+    background-image: url(../img/portfolio-4.jpg);
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex-size{
+.flex-50{
     width: 50%;
+}
+
+.flex-25{
+    width: 25%;
 }
 
 .main-btn{
     background-color: rgb(68, 68, 69);
     color: white;
-    width: 90px;
+    /* width: 90px; */
     padding: 10px;
     border: none;
     border-radius: 4px;
+}
+
+.main-btn:hover{
+    background-color: rgb(85, 85, 89);
+}
+
+.main-btn:active{
+    background-color: rgb(68, 68, 69);
+}
+
+.center-btn{
+    display: block;
+    margin: auto;
+}
+
+.iphone{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.iphone-img{
+    width: 216px;
+    position: absolute;
+    top: 12.5%;
+    right: -1%;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding-top: 12px;
+    box-sizing: border-box;
+    color: rgb(78, 97, 192);
+    background-color: white;
+}
+
+.icons-reverse{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    padding-top: 12px;
+    margin: 8px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(78, 97, 192);
+}
+
+.bg-img1:hover{
+    border: 24px solid white;
+    transition: 0.3s;
+}
+
+.bg-img2:hover{
+    border: 24px solid white;
+    transition: 0.3s;
+}
+
+.bg-img3:hover{
+    border: 24px solid white;
+    transition: 0.3s;
+}
+
+.bg-img4:hover{
+    border: 24px solid white;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 768px){
+    .flex-50{
+        width: 100%;
+        text-align: center;
+    }
+
+    .flex-25{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .iphone-img{
+        width: 216px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .bg-img div{
+        height: 30vw;
+    }
 }
